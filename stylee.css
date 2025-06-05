@@ -1,0 +1,22 @@
+body{
+    background-color:wheat;
+    background-image: url("calc.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:xx-large;
+}
+.btn{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:xx-large;
+}

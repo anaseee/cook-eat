@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-image: url("bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h5 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: flex-end;
+    justify-content: space-evenly;
+    background-color: rgb(255, 170, 128);
+    
+    position: fixed;
+    width: 100%;
+
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   padding: 300px;
+}
+
+.home1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.videobtn {
+    font-size: 40px;
+}
+
+.home1:hover {
+    color: brown;
+    cursor: pointer;
+}
+.image{
+    display: flex;
+    flex-direction: flex-end;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.home p{
+    
+    padding: 300px;
+}
+.ingg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.ingr{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pp p{
+    
+    padding: 150px;
+    font-size: large;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@keyframes MoveUpDown{
+    0%{
+        transform: scale(80%); 
+        transform: rotateX('90%');
+        color: rgb(230, 139, 20);
+    }
+    100%{
+        transform: scale(50%);
+        transform:rotateX('0%') ;
+        color: black;
+    }
+}
+.home h1{
+   animation: MoveUpDown 10s infinite;
+}
+
+@keyframes MoveUpDown{
+    0%{
+        transform: scale(80%); 
+        transform: rotateX('90%');
+        color: rgb(230, 139, 20);
+    }
+    100%{
+        transform: scale(50%);
+        transform:rotateX('0%') ;
+        color: black;
+    }
+}
+.home1 img{
+    animation: MoveUpDown 10s infinite;
+    animation: Rotate 5s linear infinite;
+}
+
+@keyframes Rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
