@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     scroll-behavior: smooth;
 
@@ -41,8 +41,9 @@ p {
     flex-direction: flex-end;
     justify-content: space-evenly;
     background-color: rgb(255, 170, 128);
-    
+
     position: fixed;
+    top: 0;
     width: 100%;
 
 }
@@ -52,14 +53,16 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   padding: 300px;
+    padding: 300px;
 }
 
 .home1 {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 
 }
 
@@ -71,85 +74,97 @@ p {
     color: brown;
     cursor: pointer;
 }
-.image{
+
+.image {
     display: flex;
     flex-direction: flex-end;
     justify-content: space-evenly;
     width: 100%;
 }
 
-.home p{
-    
+.home p {
+
     padding: 300px;
 }
-.ingg{
+
+.ingg {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;;
+    justify-content: center;
+    ;
     width: 100%;
     height: 100vh;
 
 }
 
-.ingr{
+.ingr {
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.pp p{
-    
+
+.pp p {
+
     padding: 150px;
     font-size: large;
 }
-a{
+
+a {
     color: black;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-@keyframes MoveUpDown{
-    0%{
-        transform: scale(80%); 
+
+@keyframes MoveUpDown {
+    0% {
+        transform: scale(80%);
         transform: rotateX('90%');
         color: rgb(230, 139, 20);
     }
-    100%{
+
+    100% {
         transform: scale(50%);
-        transform:rotateX('0%') ;
+        transform: rotateX('0%');
         color: black;
     }
-}
-.home h1{
-   animation: MoveUpDown 10s infinite;
 }
 
-@keyframes MoveUpDown{
-    0%{
-        transform: scale(80%); 
+.home h1 {
+    animation: MoveUpDown 10s infinite;
+}
+
+@keyframes MoveUpDown {
+    0% {
+        transform: scale(80%);
         transform: rotateX('90%');
         color: rgb(230, 139, 20);
     }
-    100%{
+
+    100% {
         transform: scale(50%);
-        transform:rotateX('0%') ;
+        transform: rotateX('0%');
         color: black;
     }
 }
-.home1 img{
+
+.home1 img {
     animation: MoveUpDown 10s infinite;
     animation: Rotate 5s linear infinite;
 }
 
 @keyframes Rotate {
-    0%{
+    0% {
         transform: rotate(0deg);
     }
-    50%{
+
+    50% {
         transform: rotate(180deg);
     }
-    100%{
+
+    100% {
         transform: rotate(360deg);
     }
 }
